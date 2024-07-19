@@ -1,0 +1,33 @@
+{
+  "name": "securavote",
+  "version": "1.0.0",
+  "description": "Custom Celo Composer project.",
+  "private": true,
+  "author": "SecuraVote",
+  "license": "MIT",
+  "scripts": {
+    "react-app:dev": "yarn workspace @securavote/react-app dev",
+    "react-app:build": "yarn workspace @securavote/react-app build",
+    "react-app:export": "yarn workspace @securavote/react-app export",
+    "react-app:start": "yarn workspace @securavote/react-app start",
+    "react-app:lint": "yarn workspace @securavote/react-app lint",
+    "contracts:compile": "yarn workspace @securavote/contracts compile",
+    "contracts:deploy": "yarn workspace @securavote/contracts deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celo-org/celo-composer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/celo-org/celo-composer/issues"
+  },
+  "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+  "workspaces": [
+    "packages/*",
+    "hardhat/*"
+  ],
+  "keywords": [
+    "celo-composer",
+    "celo"
+  ]
+}

@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div.markdown {
+  /*font: 15px Helvetica, arial, freesans, clean, sans-serif;*/
+  word-wrap: break-word;
+  /*line-height: 1.7;*/
+  -webkit-font-smoothing: antialiased;
+}
+
+div.markdown a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+div.markdown a:hover {
+  text-decoration: underline;
+}
+
+div.markdown p,
+div.markdown blockquote,
+div.markdown ul,
+div.markdown ol,
+div.markdown dl,
+div.markdown table,
+div.markdown pre {
+  margin: 15px 0;
+}
+
+div.markdown ul,
+div.markdown ol {
+  padding-left: 30px;
+}
+
+div.markdown h1 {
+  border-bottom: 1px solid #ddd;
+  color: #000;
+  font-size: 2.5em;
+}
+
+div.markdown h2 {
+  border-bottom: 1px solid #eee;
+  color: #000;
+  font-size: 2em;
+}
+
+div.markdown h3 {
+  font-size: 1.5em;
+}
+
+div.markdown h4 {
+  font-size: 1.2em;
+}
+
+div.markdown h5 {
+  font-size: 1em;
+}
+
+div.markdown h6 {
+  color: #777;
+  font-size: 1em;
+}
+
+div.markdown h1,
+div.markdown h2,
+div.markdown h3,
+div.markdown h4,
+div.markdown h5,
+div.markdown h6 {
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px 0;
+}
+
+div.markdown h1 + p,
+div.markdown h2 + p,
+div.markdown h3 + p {
+  margin-top: 10px;
+}
+
+div.markdown img {
+  max-width: 100%;
+}
+
+div.markdown code,
+div.markdown pre {
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: pre;
+}
+
+div.markdown pre code {
+  border: none;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+}
